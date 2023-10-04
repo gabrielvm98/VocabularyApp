@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Vocabulario</title>
+</head>
+<body>
+    <h1>Crear Vocabulario</h1>
+
+    <form id="createVocabularyForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required><br>
+
+        <label for="description">Descripción:</label>
+        <input type="text" id="description"><br>
+
+        <label for="languageA">Idioma A:</label>
+        <input type="text" id="languageA" required><br>
+
+        <label for="languageB">Idioma B:</label>
+        <input type="text" id="languageB" required><br>
+
+        <label for="isPublic">Público:</label>
+        <input type="checkbox" id="isPublic"><br>
+
+        <h2>Pares de palabras</h2>
+        <div id="wordPairsContainer">
+            <!-- Aquí puedes agregar dinámicamente pares de palabras (word/translation) -->
+        </div>
+
+        <button type="button" id="addWordPairButton">Agregar Par de Palabras</button>
+        <button type="submit">Crear Vocabulario</button>
+    </form>
+
+    <script src="create.js"></script>
+</body>
+</html>
