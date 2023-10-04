@@ -12,8 +12,17 @@ body {
     justify-content: center;
 }
 
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+}
+
 /* Estilo para botones */
 .button {
+    font-size: 25px;
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -34,6 +43,7 @@ table {
 }
 
 table, th, td {
+    font-size: 25px;
     border: 1px solid #ddd;
 }
 
@@ -42,6 +52,9 @@ th, td {
     text-align: left;
 }
 
+p{
+    font-size: 25px;
+}
 
 /* Estilo para el formulario */
 form {
@@ -50,6 +63,7 @@ form {
 
 /* Estilo para los labels */
 label {
+    font-size: 25px;
     display: block; /* Cambia a bloque para que cada label ocupe una línea completa */
     margin-bottom: 10px; /* Agrega espacio entre los labels y los inputs */
 }
@@ -80,6 +94,7 @@ input[type="password"] {
 
 /* Estilos para los elementos <a> con href="list.html" */
 a {
+    font-size: 25px;
     color: #0074d9; /* Color azul */
     text-decoration: none; /* Sin subrayado */
     font-weight: bold; /* Texto en negrita */
@@ -97,3 +112,5 @@ a:hover {
     background-color: #0074d9; /* Cambio de color de fondo al pasar el cursor */
     color: #fff; /* Cambio de color de texto al pasar el cursor */
 }
+
+
