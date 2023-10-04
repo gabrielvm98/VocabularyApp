@@ -26,11 +26,9 @@ function getVocabulariesByUserId(userId) {
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td>${vocabulary.name}</td>
-                <td>${vocabulary.description}</td>
                 <td>${vocabulary.languageA}</td>
                 <td>${vocabulary.languageB}</td>
-                <td>${vocabulary.isPublic ? 'Sí' : 'No'}</td>
-                <td><button onclick="viewDetails(${vocabulary.vocabularyId})">Ver Detalles</button></td>
+                <td><button onclick="viewDetails(${vocabulary.vocabularyId})" class="button">Ver Detalles</button></td>
             `;
             tableBody.appendChild(row);
         });

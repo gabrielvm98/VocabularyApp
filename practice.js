@@ -37,9 +37,9 @@ function displayCurrentWordPair() {
         practiceArea.innerHTML = `
             <h2>Palabra:</h2>
             <p>${word}</p>
-            <h3>Traducción:</h3>
+            <h3>Traduccion:</h3>
             <input type="text" id="translationInput">
-            <button id="checkTranslation">Comprobar</button>
+            <button id="checkTranslation" class="button">Comprobar</button>
             <p id="resultMessage"></p>
             <p>Puntaje: ${score}</p>
         `;
@@ -54,10 +54,10 @@ function displayCurrentWordPair() {
 
             if (userTranslation === correctTranslation) {
                 score++;
-                resultMessage.textContent = '¡Correcto!';
+                resultMessage.textContent = 'Correcto!';
                 resultMessage.style.color = 'green';
             } else {
-                resultMessage.textContent = `Incorrecto. La traducción correcta es: ${correctTranslation}`;
+                resultMessage.textContent = `Incorrecto. La traduccion correcta es: ${correctTranslation}`;
                 resultMessage.style.color = 'red';
             }
 

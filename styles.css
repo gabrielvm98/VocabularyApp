@@ -1,0 +1,99 @@
+/* Estilo global para todo el sitio */
+
+/* Configuración de fondo y espacio entre secciones */
+body {
+    background-color: #f0f8ff; /* Fondo blanco con un toque de celeste */
+    margin: 5;
+    padding: 5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para botones */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #0074d9; /* Azul */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 20px; /* Redondear bordes */
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para tablas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+
+/* Estilo para el formulario */
+form {
+    margin: 20px; /* Agrega margen alrededor del formulario */
+}
+
+/* Estilo para los labels */
+label {
+    display: block; /* Cambia a bloque para que cada label ocupe una línea completa */
+    margin-bottom: 10px; /* Agrega espacio entre los labels y los inputs */
+}
+
+/* Estilo para los inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 10px; /* Agrega relleno para mayor espacio interno */
+    margin-bottom: 10px; /* Agrega espacio entre los inputs */
+}
+
+
+/* Estilos específicos para los labels e inputs dentro de #wordPairsContainer */
+#wordPairsContainer label {
+    display: inline-block; /* Mostrar labels en línea */
+    width: 100px; /* Ancho fijo para los labels (ajusta según tus necesidades) */
+    text-align: right; /* Alinea el texto del label a la derecha */
+    margin-right: 10px; /* Agrega un margen a la derecha del label para separarlo del input */
+}
+
+#wordPairsContainer input[type="text"] {
+    width: 200px; /* Ancho fijo para los inputs (ajusta según tus necesidades) */
+}
+
+
+
+/* Estilos para los elementos <a> con href="list.html" */
+a {
+    color: #0074d9; /* Color azul */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 10px; /* Margen superior para separar del contenido anterior */
+    display: inline-block; /* Mostrar en línea */
+    padding: 5px 10px; /* Espaciado interno */
+    border: 1px solid #0074d9; /* Borde delgado azul */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: transparent; /* Fondo transparente */
+    transition: background-color 0.3s, color 0.3s; /* Efecto de transición suave */
+}
+
+/* Estilo cuando el cursor pasa sobre el enlace */
+a:hover {
+    background-color: #0074d9; /* Cambio de color de fondo al pasar el cursor */
+    color: #fff; /* Cambio de color de texto al pasar el cursor */
+}
